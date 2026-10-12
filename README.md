@@ -1,5 +1,10 @@
 # Coworking Space CRM/ERP — Multi-Center Management
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-) [![Issues](https://img.shields.io/github/issues/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-/commits/main)
 
 > A repository for a coworking-space management platform concept. Verify the implemented modules, roles, and data flows in the current source before relying on them.
