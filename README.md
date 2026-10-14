@@ -1,50 +1,42 @@
 # Coworking Space CRM/ERP — Multi-Center Management
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-)](https://github.com/kandisaikishore/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+A coworking-space CRM/ERP platform concept for organizing operations across multiple locations. The README describes the intended domain; confirm specific modules and workflows in the current implementation before using this as an operational system.
 
+## Domain workflows
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-) [![Issues](https://img.shields.io/github/issues/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-)](https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-/commits/main)
+Potential modules for a multi-center platform include:
+- Center and workspace information
+- Membership and customer records
+- Desk/room availability and reservations
+- Billing and payment status
+- Staff tasks and operational reporting
 
-> A repository for a coworking-space management platform concept. Verify the implemented modules, roles, and data flows in the current source before relying on them.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A repository for a coworking-space management platform concept. Verify the implemented modules, roles, and data flows in the current source before relying on them.
-
-## Project scope
-
-This project name suggests workflows across coworking locations, customers, and operational administration. Document only the modules that are present in the code, such as memberships, rooms, bookings, billing, or reporting where applicable.
+These are suggested capability areas, not a guarantee that each one is currently implemented.
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-.git
+git clone https://github.com/kandisaikishore/Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-.git
 cd Coworking-Space-CRM-ERP-Platform-Multi-Center-Management-
 ```
 
-Follow the framework and database setup defined in project files. Store credentials in environment variables and never commit production secrets.
+Follow the dependencies and startup commands defined by the actual project manifests. Use local environment variables for database credentials and service keys; never commit secrets.
 
-## Production-readiness checklist
+## Operational considerations
 
-- Enforce role-based access and location-level permissions
-- Validate booking conflicts and business rules
-- Protect customer and billing data
-- Add audit history, backups, monitoring, and automated tests
-- Document deployment, migrations, and rollback plans
+- Separate access by role and center
+- Prevent booking conflicts with server-side validation
+- Protect member and billing information
+- Keep audit trails for administrative changes
+- Test cross-center reporting and permission boundaries
+- Document backup, restore, and migration procedures
 
-## Contributions
+## Contributing
 
-Include reproducible steps and tests for behaviour changes.
+Open issues with reproducible steps and expected results. Include tests for important permission and booking changes.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
